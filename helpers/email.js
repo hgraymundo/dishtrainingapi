@@ -7,7 +7,7 @@ const FROM = 'malinchi2018@gmail.com'
 var SUBJECT_ACTIVATE_ACCOUNT = ''
 var BODY = ''
 // var URL_ = 'https://dishtraining.herokuapp.com'
-var URL_ = 'http://localhost:4200'
+var URL_ = 'https://dishtraining.herokuapp.com'
 
 var transporter  = nodemailer.createTransport ({
   service: 'gmail',
