@@ -24,7 +24,7 @@ exports._send_mail = function (_to, _hash, type) {
     BODY = "<img src='cid:logo_dish'/>&nbsp;<p style='color: #be1a24;'> <b>Dish - Recover password:</b></p> "
   }
   if(type == "active-account") {
-    sub_url ="/active-account?id=";
+    sub_url ="/activate-account/";
     SUBJECT_ACTIVATE_ACCOUNT = " Dish - Activate account";
     BODY = "<img src='cid:logo_dish'/>&nbsp;<p style='color: #be1a24;'> <b>Dish - Activate account:</b></p> "
   }
